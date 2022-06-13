@@ -19,7 +19,7 @@ public class Test1 {
         BaseLybEl baseLybEl = new BaseLybEl(javaCode, Arrays.asList(
                 // 一个参数 参数名为a, 参数类型为 int, 注意, 这些变量是有顺序的
                 ParamDto.builder().paramClass(int.class).paramName("a").build(),
-                // 一个参数 参数名为b, 参数类型为 string
+                // 一个参数 参数名为b, 参数类型为 int
                 ParamDto.builder().paramClass(int.class).paramName("b").build()
         ));
         long start = System.currentTimeMillis();
