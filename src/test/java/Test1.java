@@ -1,9 +1,16 @@
-# LybEl
-最快的基于Java应用程序的表达式语言。
+import com.lyb.BaseLybEl;
+import com.lyb.ParamDto;
 
-### 快速开始
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
-```aidl
+/**
+ * @author LaiYongBin
+ * @date 创建于 2022/6/13 13:14
+ * @apiNote DO SOMETHING
+ */
 public class Test1 {
     public static void main(String[] args) throws Exception {
         int count = 10000000;
@@ -35,4 +42,3 @@ public class Test1 {
         // baseLybEl.execute();
     }
 }
-```
