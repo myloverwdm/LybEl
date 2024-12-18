@@ -28,6 +28,7 @@ public class BaseLybEl2 {
         Class<?> aClass = classLoader.loadClass("com.lyb." + uuid);
         o = aClass.newInstance();
         Class[] classes = buildClass(paramDtoList);
+        String abc = "";
         if (classes == null) {
             method = aClass.getMethod("filter");
         } else {
